@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Day90",
+    "slug": "Day90",
+    "scheme": "day90",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yuriyzdev.Day90"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "authSessionRedirect": "https://auth.expo.io/@yuriyzdev/Day90"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3eb28ae2-e186-4024-8bd5-8074f6094351"
+      }
+    }
+  }
+}
