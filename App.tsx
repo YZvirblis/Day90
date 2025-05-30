@@ -25,7 +25,7 @@ export default function App() {
   }
 
   return (
-    <AuthProvider> {/* ✅ WRAP WITH THIS */}
+    <AuthProvider> 
       <AppNavigator />
     </AuthProvider>
   );
